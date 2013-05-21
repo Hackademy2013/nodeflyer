@@ -2,16 +2,16 @@
   "name": "nodeflyer",
   "version": "0.1.0",
   "description": "A web app used to demonstrate the functionality of node.js in a real-time message passing scenario",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/joshdickson40/nodeflyer.git"
   },
   "author": "Dynamite",
-  
+  "dependencies" : {
+    "express": "3.2.x",
+  	"node-static" : "0.6.x",
+    "socket.io" : "0.9.x"
+  },
   "contributors" : [ {
     "name" : "Joshua Dickson",
     "email" : "josh.dickson@wpi.edu"
@@ -22,7 +22,5 @@
     "name" : "Cameron Stoughton",
     "email" : "cameron@stoughtonfamily.com"
   } ],
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "5df1c21ab3ea4139f38cc20f695ae6c4d8a56793"
+  "license": "MIT"
 }
