@@ -8,9 +8,10 @@ var server = HTTP.createServer(app);
 var io = IO.listen(server);
 var channel = io.of('/nodeflyer');
 
+app.use(Express.logger());
 app.use('/nodeflyer', Express.static(Path.resolve(__dirname, '../resource')));
 app.all('/', function(req, res) {
-	res.redirect('nodeflyer');
+	res.redirect('/nodeflyer');
 });
 
 // Delete this row if you want to see debug messages

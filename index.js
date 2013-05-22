@@ -4,7 +4,6 @@ var Path = require('path');
 exports.path = "/nodeflyer";
 
 var app = exports.app = Express();
-app.use(Express.logger());
 app.use(Express.static(Path.resolve(__dirname, 'resource')));
 
 exports.socket = function(io) {
