@@ -14,10 +14,12 @@
   },
   "contributors" : [ {
     "name" : "Joshua Dickson",
-    "email" : "josh.dickson@wpi.edu"
+    "email" : "josh.dickson@wpi.edu",
+    "url" : "https://github.com/joshdickson40"
   }, {
     "name" : "Arsani Gaied",
-    "email" : "arsaniwilliam@gmail.com"
+    "email" : "arsaniwilliam@gmail.com",
+    "url" : "https://github.com/arsaniwilliam"
   }, {
     "name" : "Cameron Stoughton",
     "email" : "cameron@stoughtonfamily.com"
