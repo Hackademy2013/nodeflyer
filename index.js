@@ -16,7 +16,7 @@ exports.socket = function(io) {
 
 	        // This line sends the event (broadcasts it)
 	        // to everyone except the originating client.
-	        console.log(data);
+//	        console.log(data);
 	        channel.emit('clientUpdate', data);
 	    });
 	});
