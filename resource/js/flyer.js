@@ -74,7 +74,7 @@ $(document).ready(function() {
 /*
 *initialize and play sound on a loop as long as game is running
 */
-var planeSound = new Audio("../sounds/fighter_plane.wav");
+var planeSound = new Audio("/nodeflyer/sounds/fighter_plane.wav");
 function playSound()
 {
 	planeSound.play();
